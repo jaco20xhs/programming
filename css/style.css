@@ -1,0 +1,64 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #424A56;
+    background-image: url(../images/coffeebeans.jpg);
+}
+
+nav {
+    width: 80vw;
+    height: 40px;
+    margin: 0 auto;
+    background-color: #C7AA96;
+    display: flex;
+    justify-content: space-around;
+    border: solid black 2px;
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+}
+
+.intro {
+    margin: 0 auto;
+    width: 80vw;
+    background-color: #7A635E;
+}
+
+.bar {
+    width: 100%;
+    height: auto;
+}
+
+.desc {
+    margin: 0 auto;
+    width: 80vw;
+    height: auto;
+    background-color: #E6D7D2;
+    display: flex;
+    justify-content: space-around;
+}
+
+.cowboy {
+    width: 250px;
+    height: auto;
+}
+
+.fpress {
+    width: 250px;
+    height: auto;
+}
+
+.cup {
+    width: 250px;
+    height: auto;
+}
+
+.mpot {
+    width: 250px;
+    height: auto;
+}
