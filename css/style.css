@@ -10,13 +10,21 @@ body {
 
 nav {
     width: 80vw;
-    height: 40px;
+    /*height: 40px;*/
     margin: 0 auto;
     background-color: #C7AA96;
+    /*display: flex;*/
+    /*justify-content: space-around;*/
+    /*border: solid black 2px;*/
+    /*text-align: center;*/
+}
+
+ul {
+    list-style-type: none;
     display: flex;
     justify-content: space-around;
-    border: solid black 2px;
-    text-align: center;
+    height: 40px;
+    /*border: solid black 2px;*/
 }
 
 h1 {
