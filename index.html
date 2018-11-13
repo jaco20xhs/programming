@@ -6,11 +6,12 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Home</title>
     <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Rubik:500" rel="stylesheet"> <!-- Rubik font -->
 </head>
 <body>
     <nav>
-        <ul>
-            <li><a href="index.html">Home</a></li>
+        <ul id="nav">
+            <li class="current">Home</li> <!-- the current page will not have a hyperlink -->
             <li><a href="cowboycoffee.html">Cowboy Coffee</a></li>
             <li><a href="frenchpress.html">French Press</a></li>
             <li><a href="mokapot.html">Moka Pot</a></li>
@@ -19,30 +20,41 @@
     </nav>
     <div class="intro">
         <h1>Brewing Your Own Coffee</h1>
-        <img class="bar" src="images/coffeevar.jpeg">
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit, voluptatem.</p>
+        <img id="main" src="images/coffeevar.jpeg" alt="Various cups of coffee">
+        <p>Everyone loves a good cup of coffee. And there are many different ways to make it. Below are a few ways to brew a cup of joe in the comfort of your own home.</p>
     </div>
-    <div class="desc">
-        <cowboy>
-            <h2>Cowboy Coffee</h2>
-            <img class="cowboy" src="images/cowboy1.jpg">
-            <p>The simplest way to make coffeee using just a pot an fire.</p>
-        </cowboy>
-        <french>
-            <h2>French Press</h2>
-            <img class="fpress" src="images/frenchpress.jpg">
-            <p>Make full bodied coffeee rich in flavor.</p>
-        </french>
-        <moka>
-            <h2>Moka Pot</h2>
-            <img class="mpot" src="images/mokapot.jpg">
-            <p>Make a shot of espresso at home.</p>
-        </moka>
-        <turkish>
-            <h2>Turkish</h2>
-            <img class="cup" src="images/turkishcup.jpg">
-            <p>A traditional cup that shows off your skills.</p>
-        </turkish>
+    <div id="desc"> <!-- each section will be its own link -->
+        <div id="cowboy">
+            <a href="cowboycoffee.html"> 
+                <h2>Cowboy Coffee</h2>
+                <img class="cowboy" src="images/cowboycamp.jpg" alt="Coffee pot on a campfire">
+                <p>The simplest way to make coffeee using just a pot and a source of heat.</p>
+            </a>
+        </div>
+        <div id="french">
+            <a href="frenchpress.html">
+                <h2>French Press</h2>
+                <img class="fpress" src="images/frenchpress.jpg" alt="A french press">
+                <p>Make full bodied coffeee rich in flavor.</p>
+            </a>
+        </div>
+        <div id="moka">
+            <a href="mokapot.html">
+                <h2>Moka Pot</h2>
+                <img class="mpot" src="images/mokapot.jpg" alt="a moka pot">
+                <p>Make a shot of espresso at home.</p>
+            </a>
+        </div>
+        <div id="turkish">
+            <a href="turkish.html">
+                <h2>Turkish</h2>
+                <img class="cup" src="images/turkishcup.jpg" alt="a demitasse filled with turkish coffee">
+                <p>A traditional cup that shows off your skills.</p>
+            </a>
+        </div>
     </div>
+    <footer>
+        <h3>&copy; 2018, JJac. All rights reserved.</h3>
+    </footer>
 </body>
 </html>
